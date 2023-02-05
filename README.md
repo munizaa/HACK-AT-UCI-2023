@@ -2,7 +2,7 @@
 
 Please download ALL files into a folder and import it to the Godot Engine (which can be downloaded through https://godotengine.org/).
 
-Alternatively, you can download a zip file of the game from our releases (https://github.com/munizaa/HACK-AT-UCI-2023/releases/tag/v1.0.1).
+Alternatively, you can download a zip file of the game from our releases (https://github.com/munizaa/HACK-AT-UCI-2023/releases/tag/v1.0.1). Extract all files and run the Petr.Run.exe file (make sure that the .pck file is in there).
 
 Petr Run starts by allowing users to read instructions, start a game, or quit the program. 
 
