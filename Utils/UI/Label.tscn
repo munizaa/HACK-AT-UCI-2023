@@ -1,0 +1,11 @@
+[gd_scene format=2]
+
+[node name="Label" type="Label"]
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -30.0
+margin_top = 194.0
+margin_right = 31.0
+margin_bottom = 208.0
+text = "Welcome"
+uppercase = true
