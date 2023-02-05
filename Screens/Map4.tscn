@@ -1,0 +1,279 @@
+[gd_scene load_steps=10 format=2]
+
+[ext_resource path="res://Blocks/StoneTile.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Objects/Player.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Objects/Enemy.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Other/Entrance.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Blocks/Timer.tscn" type="PackedScene" id=5]
+[ext_resource path="res://Screens/Map4.gd" type="Script" id=6]
+[ext_resource path="res://Screens/HealthLabel.gd" type="Script" id=7]
+[ext_resource path="res://Utils/images/bottom right background.png" type="Texture" id=8]
+[ext_resource path="res://Objects/SpiderPetr.tscn" type="PackedScene" id=9]
+
+[node name="Map4" type="Node2D"]
+script = ExtResource( 6 )
+
+[node name="BottomRightBackground" type="Sprite" parent="."]
+position = Vector2( 520, 352 )
+texture = ExtResource( 8 )
+
+[node name="StoneTile" parent="." instance=ExtResource( 1 )]
+position = Vector2( 32, 608 )
+rotation = 3.14049
+
+[node name="StoneTile2" parent="StoneTile" instance=ExtResource( 1 )]
+position = Vector2( -64, -0.0706177 )
+
+[node name="StoneTile3" parent="StoneTile" instance=ExtResource( 1 )]
+position = Vector2( -128, -0.141418 )
+
+[node name="StoneTile4" parent="StoneTile" instance=ExtResource( 1 )]
+position = Vector2( -192, -0.212158 )
+
+[node name="StoneTile5" parent="StoneTile" instance=ExtResource( 1 )]
+position = Vector2( -256, -0.282898 )
+
+[node name="StoneTile6" parent="StoneTile" instance=ExtResource( 1 )]
+position = Vector2( -320, -0.353638 )
+
+[node name="StoneTile7" parent="StoneTile" instance=ExtResource( 1 )]
+position = Vector2( -384, -0.424438 )
+
+[node name="StoneTile8" parent="StoneTile" instance=ExtResource( 1 )]
+position = Vector2( -448, -0.495178 )
+
+[node name="StoneTile9" parent="StoneTile" instance=ExtResource( 1 )]
+position = Vector2( -512, -0.565918 )
+
+[node name="StoneTile10" parent="StoneTile" instance=ExtResource( 1 )]
+position = Vector2( -576, -0.636597 )
+
+[node name="StoneTile12" parent="StoneTile" instance=ExtResource( 1 )]
+position = Vector2( -704, -0.778015 )
+
+[node name="StoneTile13" parent="StoneTile" instance=ExtResource( 1 )]
+position = Vector2( -768, -0.848755 )
+
+[node name="StoneTile14" parent="StoneTile" instance=ExtResource( 1 )]
+position = Vector2( -640, -0.707275 )
+
+[node name="StoneTile15" parent="StoneTile" instance=ExtResource( 1 )]
+position = Vector2( -959.999, -1.06091 )
+
+[node name="StoneTile16" parent="StoneTile" instance=ExtResource( 1 )]
+position = Vector2( -895.999, -0.990234 )
+
+[node name="StoneTile17" parent="StoneTile" instance=ExtResource( 1 )]
+position = Vector2( -832, -0.919495 )
+
+[node name="StoneTile18" parent="StoneTile" instance=ExtResource( 1 )]
+position = Vector2( -0.0705662, 63.9999 )
+rotation = -3.14049
+
+[node name="StoneTile19" parent="StoneTile" instance=ExtResource( 1 )]
+position = Vector2( -192.141, 127.788 )
+rotation = -3.14049
+
+[node name="StoneTile20" parent="StoneTile" instance=ExtResource( 1 )]
+position = Vector2( -64.0705, 63.9294 )
+rotation = -3.14049
+
+[node name="StoneTile21" parent="StoneTile" instance=ExtResource( 1 )]
+position = Vector2( -0.282265, 256 )
+rotation = -3.14049
+
+[node name="StoneTile22" parent="StoneTile" instance=ExtResource( 1 )]
+position = Vector2( -0.423397, 384 )
+rotation = -3.14049
+
+[node name="StoneTile23" parent="StoneTile" instance=ExtResource( 1 )]
+position = Vector2( -0.352831, 320 )
+rotation = -3.14049
+
+[node name="StoneTile24" parent="StoneTile" instance=ExtResource( 1 )]
+position = Vector2( -0.635096, 576 )
+rotation = -3.14049
+
+[node name="StoneTile25" parent="StoneTile" instance=ExtResource( 1 )]
+position = Vector2( -0.493963, 448 )
+rotation = -3.14049
+
+[node name="StoneTile26" parent="StoneTile" instance=ExtResource( 1 )]
+position = Vector2( -0.564529, 512 )
+rotation = -3.14049
+
+[node name="StoneTile27" parent="StoneTile" instance=ExtResource( 1 )]
+position = Vector2( -960.07, 62.9415 )
+rotation = -3.14049
+
+[node name="StoneTile30" parent="StoneTile" instance=ExtResource( 1 )]
+position = Vector2( -960.282, 254.941 )
+rotation = -3.14049
+
+[node name="StoneTile31" parent="StoneTile" instance=ExtResource( 1 )]
+position = Vector2( -960.423, 382.941 )
+rotation = -3.14049
+
+[node name="StoneTile32" parent="StoneTile" instance=ExtResource( 1 )]
+position = Vector2( -960.352, 318.941 )
+rotation = -3.14049
+
+[node name="StoneTile33" parent="StoneTile" instance=ExtResource( 1 )]
+position = Vector2( -960.635, 574.941 )
+rotation = -3.14049
+
+[node name="StoneTile34" parent="StoneTile" instance=ExtResource( 1 )]
+position = Vector2( -960.493, 446.941 )
+rotation = -3.14049
+
+[node name="StoneTile35" parent="StoneTile" instance=ExtResource( 1 )]
+position = Vector2( -960.564, 510.941 )
+rotation = -3.14049
+
+[node name="StoneTile11" parent="StoneTile" instance=ExtResource( 1 )]
+position = Vector2( -896.634, 574.163 )
+rotation = -3.14049
+
+[node name="StoneTile36" parent="StoneTile" instance=ExtResource( 1 )]
+position = Vector2( -832.634, 574.304 )
+rotation = -3.14049
+
+[node name="StoneTile37" parent="StoneTile" instance=ExtResource( 1 )]
+position = Vector2( -768.634, 574.445 )
+rotation = -3.14049
+
+[node name="StoneTile38" parent="StoneTile" instance=ExtResource( 1 )]
+position = Vector2( -704.634, 574.587 )
+rotation = -3.14049
+
+[node name="StoneTile39" parent="StoneTile" instance=ExtResource( 1 )]
+position = Vector2( -640.634, 574.728 )
+rotation = -3.14049
+
+[node name="StoneTile40" parent="StoneTile" instance=ExtResource( 1 )]
+position = Vector2( -576.634, 574.87 )
+rotation = -3.14049
+
+[node name="StoneTile41" parent="StoneTile" instance=ExtResource( 1 )]
+position = Vector2( -512.634, 575.011 )
+rotation = -3.14049
+
+[node name="StoneTile42" parent="StoneTile" instance=ExtResource( 1 )]
+position = Vector2( -448.634, 575.152 )
+rotation = -3.14049
+
+[node name="StoneTile43" parent="StoneTile" instance=ExtResource( 1 )]
+position = Vector2( -384.635, 575.293 )
+rotation = -3.14049
+
+[node name="StoneTile44" parent="StoneTile" instance=ExtResource( 1 )]
+position = Vector2( -256.635, 575.576 )
+rotation = -3.14049
+
+[node name="StoneTile45" parent="StoneTile" instance=ExtResource( 1 )]
+position = Vector2( -192.635, 575.717 )
+rotation = -3.14049
+
+[node name="StoneTile46" parent="StoneTile" instance=ExtResource( 1 )]
+position = Vector2( -320.635, 575.435 )
+rotation = -3.14049
+
+[node name="StoneTile47" parent="StoneTile" instance=ExtResource( 1 )]
+position = Vector2( -64.6351, 575.929 )
+rotation = -3.14049
+
+[node name="StoneTile48" parent="StoneTile" instance=ExtResource( 1 )]
+position = Vector2( -128.635, 575.859 )
+rotation = -3.14049
+
+[node name="StoneTile49" parent="StoneTile" instance=ExtResource( 1 )]
+position = Vector2( -336.141, 127.629 )
+rotation = -3.14049
+
+[node name="StoneTile50" parent="StoneTile" instance=ExtResource( 1 )]
+position = Vector2( -472.141, 127.479 )
+rotation = -3.14049
+
+[node name="StoneTile51" parent="StoneTile" instance=ExtResource( 1 )]
+position = Vector2( -576.211, 191.365 )
+rotation = -3.14049
+
+[node name="StoneTile52" parent="StoneTile" instance=ExtResource( 1 )]
+position = Vector2( -704.211, 191.224 )
+rotation = -3.14049
+
+[node name="StoneTile53" parent="StoneTile" instance=ExtResource( 1 )]
+position = Vector2( -768.282, 255.153 )
+rotation = -3.14049
+
+[node name="StoneTile54" parent="StoneTile" instance=ExtResource( 1 )]
+position = Vector2( -768.211, 191.153 )
+rotation = -3.14049
+
+[node name="StoneTile55" parent="StoneTile" instance=ExtResource( 1 )]
+position = Vector2( -832.352, 319.082 )
+rotation = -3.14049
+
+[node name="StoneTile56" parent="StoneTile" instance=ExtResource( 1 )]
+position = Vector2( -896.352, 319.012 )
+rotation = -3.14049
+
+[node name="StoneTile57" parent="StoneTile" instance=ExtResource( 1 )]
+position = Vector2( -704.423, 383.224 )
+rotation = -3.14049
+
+[node name="StoneTile58" parent="StoneTile" instance=ExtResource( 1 )]
+position = Vector2( -512.353, 319.435 )
+rotation = -3.14049
+
+[node name="StoneTile59" parent="StoneTile" instance=ExtResource( 1 )]
+position = Vector2( -320.353, 319.647 )
+rotation = -3.14049
+
+[node name="StoneTile60" parent="StoneTile" instance=ExtResource( 1 )]
+position = Vector2( -640.423, 383.294 )
+rotation = -3.14049
+
+[node name="StoneTile61" parent="StoneTile" instance=ExtResource( 1 )]
+position = Vector2( -64.2822, 255.929 )
+rotation = -3.14049
+
+[node name="Player" parent="." groups=["Player"] instance=ExtResource( 2 )]
+position = Vector2( 72, 448 )
+
+[node name="Enemy" parent="." instance=ExtResource( 3 )]
+position = Vector2( 888, 536 )
+
+[node name="Enemy2" parent="." instance=ExtResource( 3 )]
+position = Vector2( 264, 544 )
+
+[node name="Map3" parent="." instance=ExtResource( 4 )]
+position = Vector2( -47, 218 )
+
+[node name="Map5" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1064, 248 )
+
+[node name="Map3Pos" type="Position2D" parent="."]
+position = Vector2( 74, 448 )
+
+[node name="Map5Pos" type="Position2D" parent="."]
+position = Vector2( 981, 456 )
+
+[node name="HealthLabel" type="Label" parent="."]
+margin_left = 8.0
+margin_top = 24.0
+margin_right = 88.0
+margin_bottom = 40.0
+script = ExtResource( 7 )
+
+[node name="TimerLabel" parent="." instance=ExtResource( 5 )]
+margin_left = 8.0
+margin_top = 8.0
+margin_right = 88.0
+margin_bottom = 24.0
+
+[node name="SpiderPetr" parent="." instance=ExtResource( 9 )]
+position = Vector2( 100, 284 )
+
+[node name="SpiderPetr2" parent="." instance=ExtResource( 9 )]
+position = Vector2( 923, 211 )

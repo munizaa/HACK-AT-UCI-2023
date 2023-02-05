@@ -1,0 +1,90 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://Utils/images/background.png" type="Texture" id=1]
+[ext_resource path="res://Screens/Return to Main.gd" type="Script" id=2]
+[ext_resource path="res://Utils/kirifont/KiriFont.ttf" type="DynamicFontData" id=3]
+[ext_resource path="res://Utils/images/PetrDialogue.png" type="Texture" id=4]
+[ext_resource path="res://Screens/Tutorial.gd" type="Script" id=5]
+
+[sub_resource type="DynamicFont" id=1]
+font_data = ExtResource( 3 )
+
+[sub_resource type="DynamicFont" id=2]
+font_data = ExtResource( 3 )
+
+[sub_resource type="DynamicFont" id=3]
+font_data = ExtResource( 3 )
+
+[node name="Instructions" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.007
+margin_right = 4.0
+margin_bottom = -0.200047
+
+[node name="TextureRect" type="TextureRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+texture = ExtResource( 1 )
+expand = true
+
+[node name="TextureRect2" type="TextureRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+texture = ExtResource( 4 )
+expand = true
+
+[node name="Return to Main" type="Button" parent="."]
+anchor_left = 1.0
+anchor_right = 1.0
+margin_left = -343.0
+margin_top = 23.0
+margin_right = -43.0
+margin_bottom = 98.0
+custom_fonts/font = SubResource( 1 )
+text = "Return to Main Menu"
+script = ExtResource( 2 )
+
+[node name="Label" type="Label" parent="."]
+self_modulate = Color( 0, 0, 0, 1 )
+anchor_left = 0.0933852
+anchor_top = 0.15894
+anchor_right = 0.58463
+anchor_bottom = 0.584437
+margin_right = 1.64509e-05
+size_flags_horizontal = 2
+size_flags_vertical = 1
+custom_fonts/font = SubResource( 2 )
+text = "Welcome Anteater! 
+UCI can be a confusing campus to 
+navigate, especially when you're on 
+the hunt for Petr stickers, but it doesn't 
+have to be! Explore the campus by 
+clicking on the map, and try to locate 
+the area where you think the Petr drop 
+will occur.Use WASD or the arrow keys 
+to control your anteater -- and be quick! 
+You only have one (1) minute to guess 
+the location and grab your sticker 
+before they run out!
+Make sure to avoid zotbots! "
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="Tutorial" type="Button" parent="."]
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+margin_left = -322.0
+margin_top = -132.0
+margin_right = -22.0
+margin_bottom = -56.9999
+custom_fonts/font = SubResource( 3 )
+text = "Tutorial"
+script = ExtResource( 5 )
+
+[connection signal="pressed" from="Return to Main" to="Return to Main" method="_on_Return_pressed"]
+[connection signal="pressed" from="Tutorial" to="Tutorial" method="_on_Tutorial_pressed"]
