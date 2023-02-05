@@ -1,6 +1,7 @@
 # HACK-AT-UCI-2023
 
-Please downlad ALL files into a folder and import it to the Godot Engine (which can be downloaded through https://godotengine.org/). 
+Please download ALL files into a folder and import it to the Godot Engine (which can be downloaded through https://godotengine.org/).
+Alternatively, you can download a zip file of the game in our tags (v1.1.02).
 
 Petr Run starts by allowing users to read instructions, start a game, or quit the program. 
 
