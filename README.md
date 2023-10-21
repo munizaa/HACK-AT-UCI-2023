@@ -15,3 +15,5 @@ Users are notified of where the Petr drop will occur and shown a campus map. The
 If Spider Petr is not in the selected location, users can navigate to another side of campus by moving toward the sides of the screen. As the UCI campus is round, the locations can be entered multiple times if the user keeps moving in one direction. When the user spots Petr, they should try their best to come into contact with them before the time runs out. 
 
 Regardless of if they are able to get a sticker or not, users are given the option to play again.
+
+For more information about Petr Run, check out our Hackathon devpost (https://devpost.com/software/petr-run) and video demo (https://youtu.be/Lx_wif4zEBQ?feature=shared).
